@@ -9,9 +9,21 @@ $(document).on('ready',function(){
 	//crear mapa
 	var mapa = new google.maps.Map($('#mapa')[0],config);
 	
-	//crear un marcador
+	//añadir marcador
 	google.maps.event.addListener(mapa, 'click', function(event) {
-    		console.log(event.latLng);//event.latLng(retorna coordenadas)
+    		placeMarker(event.latLng);
   	});
+
+	//crear marcador
+	function placeMarker(location) {
+	  var marker = new google.maps.Marker({
+	      position: location,//posicion marcador
+	      map: mapa,//mapa que contendra marcador
+	      animation:google.maps.Animation.DROP,//animacion 
+	      draggable:false//no arrastrar marcador
+	  });
+
+	  mapa.setCenter(location);
+	}
 
 })

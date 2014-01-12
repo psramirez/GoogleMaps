@@ -1,0 +1,15 @@
+/*CONFIGURACION*/
+ html { height: 100% }
+ body { height: 100%; margin: 0; padding: 0 }
+ 
+#mapa{ width: 400px;
+	  height: 400px;
+	  float: left;	
+	  background-color: green;
+ }
+#infor{
+	width: 400px;
+	height: 400px;
+	float: left;	
+	background-color: blue;
+}

@@ -1,0 +1,426 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"bo",
+				"bootstrap"
+			],
+			[
+				"red",
+				"renderItem"
+			],
+			[
+				"ite",
+				"items"
+			],
+			[
+				"rende",
+				"renderItem"
+			],
+			[
+				"pro",
+				"PRO_APP"
+			],
+			[
+				"del",
+				"delProyectDOM"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"get",
+				"getTitle"
+			],
+			[
+				"id",
+				"idProyect"
+			],
+			[
+				"tas",
+				"taskid"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 547,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 256,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/init.js",
+			"settings":
+			{
+				"buffer_size": 770,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Documents/GitHub/OficinaOnline/Proyecto/js/proyectInit.js",
+			"settings":
+			{
+				"buffer_size": 1954,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Documents/GitHub/OficinaOnline/Proyecto/proyectos.html",
+		"/D/Documents/GitHub/OficinaOnline/Proyecto/tabs-borrar.html",
+		"/D/Documents/GitHub/OficinaOnline/Proyecto/js/proyectInit.js",
+		"/D/Documents/GitHub/OficinaOnline/git/php/js/dominiotask.js",
+		"/D/Documents/GitHub/OficinaOnline/Proyecto/css/myStyle.css",
+		"/D/Documents/GitHub/OficinaOnline/Proyecto/js/proyectUI.js",
+		"/D/Drive/2Daw/01_Cliente(javier)/jquery/00_resumen.js",
+		"/D/Documents/GitHub/OficinaOnline/Proyecto/js/proyectDomain.js",
+		"/D/Documents/GitHub/todo-list-daw2/php/www/js/init.js",
+		"/D/Documents/GitHub/sb-admin/sb-admin/bootstrap-elements.html",
+		"/D/Documents/GitHub/todo-list-daw2/php/www/js/todoUI.js",
+		"/D/Documents/GitHub/OficinaOnline/Proyecto/test/proyectTestDomain.js",
+		"/D/Documents/GitHub/proyectoBoot/index.html",
+		"/D/Documents/GitHub/OficinaOnline/Proyecto/proyectInit.js",
+		"/D/Documents/GitHub/OficinaOnline/Proyecto/test/test.html",
+		"/D/Documents/GitHub/OficinaOnline/git/php/Pablo/proyectos/proyectos.html",
+		"/D/Documents/GitHub/OficinaOnline/git/php/Pablo/proyectos/proyectInit.js",
+		"/D/Documents/GitHub/OficinaOnline/git/php/Pablo/proyectos/proyectDomain.js",
+		"/D/Documents/GitHub/OficinaOnline/git/php/Pablo/proyectos/test/proyectTestDomain.js",
+		"/D/Documents/GitHub/OficinaOnline/git/php/Pablo/proyectos/test/test.html",
+		"/D/Documents/GitHub/OficinaOnline/git/php/Pablo/Dominios/test/testDomainProyect.js",
+		"/D/Documents/GitHub/OficinaOnline/git/php/Pablo/Dominios/domainproyect.js",
+		"/D/Drive/2Daw/01_Cliente(javier)/jquery/02_test.html",
+		"/D/Drive/2Daw/01_Cliente(javier)/jquery/01_template.html",
+		"/D/Documents/GitHub/todo-list-daw2/php/www/js/todo.js",
+		"/D/Documents/GitHub/librojquery/ejercicios/soluciones/tabs.js",
+		"/D/Drive/2Daw/01_Cliente(javier)/javascript/18_jquery.js",
+		"/D/Drive/2Daw/01_Cliente(javier)/jquery/05_selectors.html",
+		"/D/Documents/GitHub/librojquery/ejercicios/css/sandbox.css",
+		"/D/Drive/2Daw/01_Cliente(javier)/jquery/04_windows_load.html",
+		"/D/Drive/2Daw/01_Cliente(javier)/jquery/05_window_unload.html",
+		"/D/Drive/2Daw/01_Cliente(javier)/jquery/03_load.html",
+		"/D/Drive/2Daw/01_Cliente(javier)/jquery/02_document_ready.html",
+		"/D/Drive/2Daw/01_Cliente(javier)/jquery/01_intro.html",
+		"/D/Drive/2Daw/01_Cliente(javier)/jquery/jquery.js",
+		"/D/Documents/GitHub/oficinaonline/git/php/Dominios/domainproyect.js",
+		"/D/Documents/GitHub/oficinaonline/git/php/Dominios/test/index.html",
+		"/D/Documents/GitHub/OficinaOnline/git/php/test/index.html",
+		"/D/Documents/GitHub/oficinaonline/git/php/test/testDomainProyect.js",
+		"/D/Documents/GitHub/OficinaOnline/git/php/test/js/domainProyect.js",
+		"/D/Drive/2Daw/server/proyectoBoot/index.html",
+		"/D/Drive/2Daw/server/bootstrap/dist/00_plantilla.html",
+		"/D/Drive/2Daw/server/bootstrap/dist/03_reordenando grid.html",
+		"/D/Drive/2Daw/server/bootstrap/dist/02_columnas anidadas.html",
+		"/D/Drive/2Daw/server/bootstrap/dist/04_tipografia.html",
+		"/D/Drive/2Daw/server/bootstrap/dist/05_visivilidad.html",
+		"/D/Drive/2Daw/server/bootstrap/dist/01_intro.html",
+		"/D/Drive/2Daw/00_Trucos y Herramientas/02_Atajos_SublimeText.js",
+		"/D/Drive/2Daw/server/bootstrap/dist/01_grid.html",
+		"/C/Users/pablo/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/pablo/AppData/Roaming/Sublime Text 2/Packages/View In Browser/View In Browser.sublime-settings",
+		"/D/Downloads/SDFA.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"modProyectDOM",
+			"domainproyect.js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"/",
+			"tasks",
+			"mode",
+			");\n",
+			"*/\n",
+			"delProyectDOM",
+			"aling",
+			"badge",
+			"left",
+			"li",
+			"modProyect",
+			"addProyect",
+			"render",
+			"container",
+			"cal",
+			"addTodoUI",
+			"container",
+			"render()",
+			"addTodoUI",
+			"proyects",
+			"Proyects",
+			"proyects",
+			"Proyects",
+			"proyects",
+			"Proyects",
+			"proyects",
+			"col"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 547,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								180,
+								180
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								94
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/init.js",
+					"settings":
+					{
+						"buffer_size": 770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								536,
+								536
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/Documents/GitHub/OficinaOnline/Proyecto/js/proyectInit.js",
+					"settings":
+					{
+						"buffer_size": 1954,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 279.0,
+	"status_bar_visible": true
+}

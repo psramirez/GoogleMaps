@@ -22,7 +22,7 @@
       var mapOptions;
       var marker = [];
       var map;
-      function initialize(address) {
+      function initialize(address,user,description) {
           mapOptions = {
           center: new google.maps.LatLng(40.505691, -3.831482),
           zoom: 8,
@@ -30,13 +30,13 @@
         };
         map = new google.maps.Map(document.getElementById("map_canvas"),
             mapOptions);
-        if(address){
+        if(address,user,description){
             initializes(address,i);
             points[i] = address;
             i++;
         }
       }
-      function initializes(address,i) {
+      function initializes(address,user,description,i) {
 	var geoCoder = new google.maps.Geocoder(address)
 	var request = {address:address};
 	geoCoder.geocode(request, function(result, status){
@@ -55,7 +55,7 @@
     $(document).ready(function(){
         //initialize('Madrid');
         $('#event').bind('click',function(){
-            initialize($('#address').val());    
+            initialize($('#address').val(),$('#user').val(),$('#description').val());    
         });
     })
     </script>
@@ -96,12 +96,21 @@
                 <form action="index.html">
                     <div class="input-group">
                        <span class="input-group-addon "><span class="glyphicon glyphicon-user"></span></span>
-                       <input type="text" class="form-control" placeholder="Organizador">
+                       <input type="text" id="user" class="form-control" placeholder="Organizador">
                     </div>
                     <div class="input-group">
                        <span class="input-group-addon "><span class="glyphicon glyphicon-link"></span></span>
                        <input type="text" id="address" class="form-control" placeholder="Direccion">
-                    </div>                    
+                    </div>
+                    <div class="input-group">
+                       <span class="input-group-addon "><span class="glyphicon glyphicon-edit"></span></span>
+                       <textarea id="description" class="form-control" placeholder="Descripcion de la acctividad..."></textarea>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> <a href="#condiciones">Condiciones</a>
+                        </label>
+                    </div>
                     <button type="button" id="event" class="btn btn-success btn-block">Crear evento</button>
                 </form>
             </div>

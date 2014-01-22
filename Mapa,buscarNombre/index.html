@@ -24,8 +24,8 @@
       var map;
       function initialize(address,user,description) {
           mapOptions = {
-          center: new google.maps.LatLng(40.505691, -3.831482),
-          zoom: 8,
+          center: new google.maps.LatLng(39.772131,-0.373535),//40.505691, -3.831482),
+          zoom: 7,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         };
         map = new google.maps.Map(document.getElementById("map_canvas"),
@@ -73,17 +73,17 @@
           </button>
           <a class="navbar-brand" href="#">Quedadas</a>
         </div>
-        <div class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right" role="form">
+        <div class="navbar-collapse collapse" id="menu_top">
+          <div class="navbar-form navbar-right" id="login-content">
             <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
+              <input type="text" placeholder="Email" name="log-email" class="form-control">
             </div>
             <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
+              <input type="password" placeholder="Password" name="log-password" class="form-control">
             </div>
-            <button type="submit" class="btn btn-success">Acceso</button>
+            <button id="login-submit" class="btn btn-success">Acceso</button>
             <a href="#registro" class="btn btn-link" data-toggle="modal" data-target="#myModal">Registro</a>
-          </form>
+          </div>
          
         </div><!--/.navbar-collapse -->
       </div>
@@ -92,6 +92,7 @@
     <div class="content">  
         <div id="map_canvas"></div>
         <div class="col-xs-3 col-xs-offset-9 menu_lateral">
+            <div id="error-form-log"></div>
             <div class="formula">
                 <form action="index.html">
                     <div class="input-group">
@@ -151,7 +152,10 @@
             </div>
           </div>     
       </div>
-    </div>
     <!------------------------------------------------------------------>
+    
+    <!--Log/Registro Ajax con maptoro-->
+    <script src="./js/manager/loginAjax.js"></script>
+
   </body>
 </html>

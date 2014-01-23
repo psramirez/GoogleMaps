@@ -2,16 +2,19 @@
 <html>
   <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-    <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
-    <!--Bootstrap-->
-    <link rel="stylesheet" type="text/css" href="./lib/bootstrap/css/bootstrap.min.css">
+    <!--<script type="text/javascript" src="jquery-1.4.2.min.js"></script>-->
     
-    <!--Mis estilos-->
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./lib/ladda/dist/ladda-themeless.min.css">
+    
+    <!--CSS Mis estilos-->
     <link rel="stylesheet" type="text/css" href="./css/mystyle.css">
     
-    <!--jQuery-->
+    <!--Jacascript-->
     <script src="./lib/jquery/jquery-2.0.3.min.js"></script>
     <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+    
    
     <script type="text/javascript"
       src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDltsG1DK1kQ4zpFQ5PHM-3jmp_0PcFAfU&sensor=true">//Sensor true o false
@@ -146,7 +149,10 @@
                           <span class="input-group-addon "><span class="glyphicon glyphicon-lock"></span></span>
                           <input type="password" name="user-password" class="form-control" placeholder="Contraseña">
                         </div>                          
-                      <button type="button" id="register-submit" class="btn btn-success btn-block">Registrarme</button>    
+                      <!--<button type="button" id="register-submit" class="btn btn-success btn-block">Registrarme</button>-->
+                      <section class="button-demo">
+				<button id="register-submit" class="ladda-button btn btn-success btn-block" data-style="contract-overlay" style="z-index: 10;">Submit</button>
+                      </section>
                   </div>
               </div>
             </div>
@@ -154,8 +160,11 @@
       </div>
     <!------------------------------------------------------------------>
     
-    <!--Log/Registro Ajax con maptoro-->
+    <!--JS-->
     <script src="./js/manager/loginAjax.js"></script>
+    <script src="./lib/ladda/dist/spin.min.js"></script>
+    <script src="./lib/ladda/dist/ladda.min.js"></script>
+
 
   </body>
 </html>

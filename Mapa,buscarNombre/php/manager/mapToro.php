@@ -2,13 +2,12 @@
 
 require("../../lib/toro/toro.php");
 require("mysqlFunctions.php");
-require "send_mail.php";
 
 header('Content-Type: application/json; charset=utf-8');
 
 class InsertUser {
 	function post(){
-            insertUser($_POST['name'],$_POST['email'],$_POST['password']);
+            echo insertUser($_POST['name'],$_POST['email'],$_POST['password']);
         }
 }
 
